@@ -42,6 +42,20 @@ void mul() {
     printf("\nResult: %.2f\n\n", num);
 }
 
+void div() {
+    float num, div;
+
+    printf("\n");
+    printf("Input 1st Number: ");
+    scanf("%f", &num);
+    printf("Input 2nd Number: ");
+    scanf("%f", &div);
+    
+    num /= div;
+
+    printf("\nResult: %.2f\n\n", num);
+}
+
 int main() {
     int run = 1;
     while (run == 1) {
@@ -53,6 +67,7 @@ int main() {
             case 1: add(); break;
             case 2: neg(); break;
             case 3: mul(); break;
+            case 4: div(); break;
             case 5: run = 0; break;
         }
     }
