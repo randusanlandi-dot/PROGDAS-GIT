@@ -28,6 +28,20 @@ void neg() {
     printf("\nResult: %.2f\n\n", num);
 }
 
+void mul() {
+    float num, mul;
+
+    printf("\n");
+    printf("Input 1st Number: ");
+    scanf("%f", &num);
+    printf("Input 2nd Number: ");
+    scanf("%f", &mul);
+    
+    num *= mul;
+
+    printf("\nResult: %.2f\n\n", num);
+}
+
 int main() {
     int run = 1;
     while (run == 1) {
@@ -38,6 +52,7 @@ int main() {
         switch (choice) {
             case 1: add(); break;
             case 2: neg(); break;
+            case 3: mul(); break;
             case 5: run = 0; break;
         }
     }
