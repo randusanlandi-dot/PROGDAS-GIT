@@ -37,6 +37,7 @@ int main() {
 
         switch (choice) {
             case 1: add(); break;
+            case 2: neg(); break;
             case 5: run = 0; break;
         }
     }
