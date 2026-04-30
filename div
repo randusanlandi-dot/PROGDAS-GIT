@@ -1,4 +1,4 @@
-void mul() {
+void div() {
     float num, div;
 
     printf("\n");
