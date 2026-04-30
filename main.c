@@ -14,6 +14,20 @@ void add() {
     printf("\nResult: %.2f\n\n", num);
 }
 
+void neg() {
+    float num, neg;
+
+    printf("\n");
+    printf("Input 1st Number: ");
+    scanf("%f", &num);
+    printf("Input 2nd Number: ");
+    scanf("%f", &neg);
+    
+    num -= neg;
+
+    printf("\nResult: %.2f\n\n", num);
+}
+
 int main() {
     int run = 1;
     while (run == 1) {
