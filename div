@@ -1,0 +1,13 @@
+void mul() {
+    float num, div;
+
+    printf("\n");
+    printf("Input 1st Number: ");
+    scanf("%f", &num);
+    printf("Input 2nd Number: ");
+    scanf("%f", &div);
+    
+    num /= div;
+
+    printf("\nResult: %.2f\n\n", num);
+}
